@@ -2,7 +2,9 @@
 
 Colorful diff for Zengin Codes.
 
-![SS](http://static.zeny.io/logos/ginsa.png)
+<div align="center">
+<img src="http://static.zeny.io/logos/ginsa.png" alt="screen shot">
+</div>
 
 ## Install
 

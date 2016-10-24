@@ -2,6 +2,8 @@
 
 Colorful diff for Zengin Codes.
 
+![SS](http://static.zeny.io/logos/ginsa.png)
+
 ## Install
 
 You can download binary from [releases](https://github.com/zengin-code/ginsa/releases) page and place it in $PATH directory.

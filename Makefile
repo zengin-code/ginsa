@@ -24,5 +24,10 @@ gox:
 		rm -rf $$target; \
 		done
 
+release:
+	@git tag -f $(VERSION)
+	@git push --all
+	@ghr -u zengin-code -r ginsa $(VERSION) pkg
+
 deps:
 	@git grep github.com | sed -e "s/\"$$//" | sed -e "s/^.*\"//" | sort | uniq | grep -v depscribe
